@@ -1,0 +1,8 @@
+{
+  "components.title.application-title": "Caleb",
+  "components.modal.submit": "Submit",
+  "components.modal.cancel": "Cancel",
+  "components.modal.add": "Add",
+  "components.input.birth-date": "Birth Date",
+  "components.input.name": "Name"
+}

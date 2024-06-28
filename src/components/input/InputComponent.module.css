@@ -1,0 +1,9 @@
+.input{
+    margin-top: var(--caleb-size-xsmall);
+    color-scheme: light;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}

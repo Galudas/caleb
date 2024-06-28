@@ -1,0 +1,22 @@
+.button {
+    border-radius: var(--caleb-size-xsmall);
+    background-color: var(--caleb-color-very-light-purple);
+    border: 1px solid var(--caleb-color-light-purple);
+    padding: var(--caleb-size-small);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.transparency {
+    background-color: var(--caleb-color-white);
+}
+
+.button:hover {
+    background-color: var(--caleb-color-purple-darker);
+    color: var(--caleb-color-white);
+}
+
+.transparency:hover {
+    background-color: var(--caleb-color-purple-darker);
+    color: var(--caleb-color-white);
+}
