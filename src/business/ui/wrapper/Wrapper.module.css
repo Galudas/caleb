@@ -1,0 +1,6 @@
+.wrap {
+    display: flex;
+    border: var(--caleb-size-xxsmall) solid var(--caleb-color-black);
+    border-radius: var(--caleb-size-xsmall);
+    padding: var(--caleb-size-small)
+}

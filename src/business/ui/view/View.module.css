@@ -1,0 +1,8 @@
+.viewWrapper {
+    width: var(--caleb-view-width);
+    margin: var(--caleb-size-large) 0 var(--caleb-size-large) var(--caleb-size-large);
+}
+
+.inputWrapper span:not(:first-child) {
+    margin-top: var(--caleb-size-small);
+}

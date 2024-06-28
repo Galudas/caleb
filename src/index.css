@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#Caleb {
+  display: flex;
+}
+
+:root {
+  /* size */
+  --caleb-size-xxsmall: 2px;
+  --caleb-size-xsmall: 0.25rem;
+  --caleb-size-small: 0.5rem;
+  --caleb-size-medium: 1rem;
+  --caleb-size-large: 1.5rem;
+  --caleb-size-xlarge: 2rem;
+
+  /*font size*/
+  --caleb-font-size-small: 0.75rem;
+  --caleb-font-size-medium: 1rem;
+  --caleb-font-size-large: 2rem;
+
+  /* colors */
+  --caleb-color-blue-dominant: #3D46E1;
+  --caleb-color-purple-bright: #4F55B6;
+  --caleb-color-purple-darker: #54578B;
+  --caleb-color-light-purple: #ebecfc;
+  --caleb-color-very-light-purple: #f9f9fe;
+  --caleb-color-gray: #4B4C61;
+  --caleb-color-black: #242433;
+  --caleb-color-white: #ffffff;
+
+
+  /* navigation */
+  --caleb-nav-width: 15%;
+
+  /* view */
+  --caleb-view-width: 85%;
+}
+
+.fc .fc-button-group > .fc-button{
+  flex: unset;
+  background-color: var(--caleb-color-purple-darker);
+  border: unset;
+}
+
+.fc-direction-ltr .fc-toolbar > * > :not(:first-child){
+  background-color: var(--caleb-color-purple-darker);
+  border: unset;
+}
+
+.fc-daygrid-event-dot{
+  border-color: var(--caleb-color-purple-darker);
+}
+
+.fc-toolbar-chunk:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.fc .fc-toolbar {
+  align-items: unset;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: var(--caleb-size-large);
+}
+
+
+input[type="date"] {
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+label{
+  font-size: var(--caleb-font-size-small);
+  font-weight: unset;
+}
